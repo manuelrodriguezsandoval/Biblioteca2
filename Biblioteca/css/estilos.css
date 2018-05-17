@@ -1,0 +1,47 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: darkred;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    width: 100%;
+}
+.header {
+    display: inline;
+    text-align:left;
+    color:white;
+    
+}
+a{
+    color: white;
+}
+.titulo {
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+form {
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 500px;
+}
+
+    form .datosIngreso {
+        display: inline-block;
+        width: 150px;
+        color: white;
+        font-weight: bold;
+        text-align:left;
+    }
+
+    form input {
+        display: inline-block;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+
